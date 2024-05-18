@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:9090/tasks';
+const baseURL = 'https://webalar-backend-6wp3.onrender.com/tasks';
 
 // Fetch all tasks
 export const fetchTasks = async (token) => {

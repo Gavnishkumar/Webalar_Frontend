@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:9090/auth'; 
+const baseURL = 'https://webalar-backend-6wp3.onrender.com/auth'; 
 
 // Register a new user
 export const register = async (userData) => {
